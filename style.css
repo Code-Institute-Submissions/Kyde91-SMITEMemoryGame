@@ -12,6 +12,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  font-family: "Anton", sans-serif;
+  overflow: hidden;
 }
 
 h1 {
@@ -22,10 +24,9 @@ h1 {
 
 p {
   text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  margin: 20px;
-  padding: 10px;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 20px;
 }
 
 .smite-logo {
@@ -42,22 +43,28 @@ p {
 .score-container {
   position: relative;
   float: right;
-  bottom: 350px;
-  right: 125px;
 }
 
 .actions {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  position: relative;
+  bottom: 400px;
+  margin-right: 100px;
+  margin-left: 130px;
+  z-index: 1;
+  pointer-events: none;
 }
 
 .actions button {
   padding: 8px 16px;
   font-size: 30px;
   border-radius: 10px;
-  background: linear-gradient(#fdfbfb, #ebcc46);
-  color: rgb(0, 3, 22);
-  z-index: 1;
+  background: linear-gradient(#f7e164, #764f00);
+  color: #111d2d;
+  cursor: pointer;
+  pointer-events: auto;
+  font-family: "Anton", sans-serif;
 }
 
 /* styling for the cards, needed to create simple math sum to caclculate length width of the card */
@@ -67,6 +74,7 @@ p {
   grid-gap: 12px;
   grid-template-columns: repeat(6, 140px);
   grid-template-rows: repeat(2, calc(120px / 2 * 3));
+  z-index: 2;
 }
 
 .card {
@@ -118,9 +126,71 @@ p {
 }
 
 .overlay {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   margin: auto;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background: url("assets/Smitebackground.webp");
+  background-position: center center;
+  background-size: cover;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  color: #000;
+  pointer-events: auto;
+}
+
+.modal-content p {
+  color: white;
+}
+
+.modal-container {
+  height: 100%;
+  position: relative;
+  width: auto;
+}
+
+#myBtn {
+  padding: 8px 16px;
+  font-size: 30px;
+  border-radius: 10px;
+  background: linear-gradient(#f7e164, #764f00);
+  color: #111d2d;
+  z-index: 1;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
 }
