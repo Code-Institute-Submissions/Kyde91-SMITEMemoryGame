@@ -7,11 +7,16 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Memory game</h1>
+    <div class="overlay"></div>
+    <div class="logo-container">
+      <img src="assets/SmiteLogo.webp" alt="smite logo" class="smite-logo" />
+    </div>
     <div class="grid-container"></div>
-    <p>Score: <span class="score"></span></p>
-    <div class="actions">
-      <button onclick="restart()">Restart</button>
+    <div class="score-container">
+      <p>Score: <span class="score"></span></p>
+      <div class="actions">
+        <button onclick="restart()">Restart</button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

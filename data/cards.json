@@ -1,38 +1,38 @@
 [
   {
-    "image": "assets/chili.png",
-    "name": "chili"
+    "image": "assets/Ares.webp",
+    "name": "ares"
   },
   {
-    "image": "assets/grapes.png",
-    "name": "grapes"
+    "image": "assets/Aphrodite.webp",
+    "name": "aphordite"
   },
   {
-    "image": "assets/lemon.png",
-    "name": "lemon"
+    "image": "assets/Anubis.webp",
+    "name": "Anubis"
   },
   {
-    "image": "assets/orange.png",
-    "name": "orange"
+    "image": "assets/Hades.webp",
+    "name": "hades"
   },
   {
-    "image": "assets/pineapple.png",
-    "name": "pineapple"
+    "image": "assets/Medusa.webp",
+    "name": "medusa"
   },
   {
-    "image": "assets/strawberry.png",
-    "name": "strawberry"
+    "image": "assets/Thanatos.webp",
+    "name": "thanatos"
   },
   {
-    "image": "assets/tomato.png",
-    "name": "tomato"
+    "image": "assets/Hercules.webp",
+    "name": "hercules"
   },
   {
-    "image": "assets/watermelon.png",
-    "name": "watermelon"
+    "image": "assets/Zeus.webp",
+    "name": "zeus"
   },
   {
-    "image": "assets/cherries.png",
-    "name": "cherries"
+    "image": "assets/Thor.webp",
+    "name": "thor"
   }
 ]
