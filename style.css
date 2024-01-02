@@ -25,7 +25,8 @@ h1 {
 p {
   text-align: center;
   font-size: 40px;
-  margin: 0;
+  margin: auto;
+  width: 20%;
   padding-top: 20px;
 }
 
@@ -35,6 +36,15 @@ p {
   height: 190px;
   width: 700px;
   padding: 20px;
+  margin: auto;
+}
+
+.smite-logo2 {
+  position: relative;
+  display: block;
+  height: 160px;
+  width: 650px;
+  padding: 10px;
   margin: auto;
 }
 
@@ -71,7 +81,8 @@ p {
 .grid-container {
   display: grid;
   justify-content: center;
-  grid-gap: 12px;
+  grid-gap: 15px;
+  padding: 5px;
   grid-template-columns: repeat(6, 140px);
   grid-template-rows: repeat(2, calc(120px / 2 * 3));
   z-index: 2;
@@ -130,7 +141,7 @@ p {
   height: 100%;
   margin: auto;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -149,19 +160,25 @@ p {
 }
 
 .modal-content {
-  background: url("assets/Smitebackground.webp");
+  /* background: url("assets/Smitebackground.webp");
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
+  background: linear-gradient(#f7e164, #764f00);
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  color: #000;
   pointer-events: auto;
 }
 
-.modal-content p {
-  color: white;
+p.modal-text {
+  line-height: 3;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  font-size: 26px;
+  color: #111d2d;
 }
 
 .modal-container {

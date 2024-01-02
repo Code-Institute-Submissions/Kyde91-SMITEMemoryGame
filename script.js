@@ -122,3 +122,14 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+// Button hover effect
+const button = document.querySelector("button");
+
+button.addEventListener("mouseover", () => {
+  button.style.backgroundColor = "blue";
+});
+
+button.addEventListener("mouseout", () => {
+  button.style.backgoundColor = "";
+});
