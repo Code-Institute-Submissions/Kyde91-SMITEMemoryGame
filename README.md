@@ -1,39 +1,131 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SMITE Memory Game
 
-Welcome,
+## This is a Smite themed memory game made using HTML, CSS and JavaScript
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The requirements for this project are to create a interactive front end website using HTML, CSS and JavaScript(optional libaries such as Jquery). This project is a simple memory game that features 16 cards in which you have to match two of the same pair. The site gives you clear instructions on how to play the game and restart the game once it is finished.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The aim of the game is to find and pair all of the cards(Gods).
 
-## Codeanywhere Reminders
+## User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- I am a 16 year old who is looking to play a simple game whilst waiting to load into an online match
+- I am an avid SMITE fan and am looking to play a smite related game that isn't as intense as SMITE itself
 
-`python3 -m http.server`
+- [Home](#home)
+- [Design Ideas](#design-ideas)
+- [Wireframes](#wireframes)
+- [Languages used](#languages-used)
+- [Technologies used](#technologies-used)
+- [Functions and featues](#functions-and-features)
+- [Testing and validation](#testing-and-validation)
+- [Perfomance](#performance)
+- [Future features](#future-features)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Home
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+SMITE is a online multiplayer moba that I am a huge fan of. When initially creating the wireframes I wanted to give the user a 'battleground' or 'colloseum' feeling as if they where preparing to battle. The SMITE logo is a very distinguishing logo and helped me theme the rest of the page.
+The game has a very simple landing page with the Logo, Cards, Restart button and Game Rules.
 
-`http_server`
+![Alt text](/assets/WireframeHOME.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Design Ideas
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+I was able to obtain official SMITE images through [Title](https://smite.fandom.com/wiki). This was an amazing find as it gave me every bit of imgaery I needed.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Logo:
+![Alt text](/assets/SmiteLogo.webp)
 
-To log into the Heroku toolbelt CLI:
+Card design:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+I had options out of the following two, I chose to go for 1 because it looked very original on the page. 2 did look very nice, however it didn't quite match the theme of the logo:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+1. ![Alt text](/assets/emotecardback.webp)
+2. ![Alt Text](/assets/cardbackleague.jpg)
 
----
+Restart and Game Rules Button:
 
-Happy coding!
+Simple button with gradient design done in CSS
+
+![Alt text](/assets/restart.png)
+![Alt text](/assets/Gamerules.png)
+
+Background image:
+
+The background image is Olympus, which is a playable map in SMITE and is a loading screen on the official game
+
+![Alt text](/assets/Olympusloadingscreen.webp)
+
+## Wireframes
+
+![Alt text](/assets/wireframing.png)
+
+## Languages Used
+
+HTML, CSS and Javascript
+
+## Technologies Used
+
+- Github, Used for starage of the website and publishing online.
+- VScode, This is the IDE I used to edit code and push changes
+- Google Fonts, Used for font styling
+
+# Deployment
+
+I deployed my website using GitPages. To do this, the steps are as follows:
+
+(I documented any changes through VS source control tab)
+
+- Once you have made changes to your code, click the Source Control tab in the activity bar.
+
+![Alt text](assets/images/sourcecontrol.png)
+
+- Select the changes you wish to commit by clicking the + symbol next to the file name (you can commit seperate changes in one push to the respository)
+
+- Once you have given a message to all of the committed changes you will see a 'Sync' option. Click that to push the code to your git repository.
+
+![Alt text](assets/images/syncchanges.png)
+
+- Go to your repository, you will see that the changes have been made. On the right side of the main branch you should see the 'Deployments link'.
+
+![Alt text](assets/images/deploymentstab.png)
+
+- From there you can click on the link to you deployed website. You can also take a look at the history of deployments.
+
+![Alt text](assets/images/link.png)
+
+## How to Clone
+
+- Log into your account on github
+- Go to the repository of this project /Kyde91/Milestone-Project/
+- Click on the code button, and copy your preferred clone link.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+  How to Fork
+
+## To fork the repository:
+
+- Log in (or sign up) to Github.
+- Go to the repository for this project, Kyde91/MemoryGameJS
+- Click the Fork button in the top right corner.
+
+# Testing and Validation:
+
+## Manual testing
+
+- Game cards
+- Restart button
+- Game Rules button
+
+## Jigsaw CSS Validator
+
+I used Jigsaw to validate my CSS code - Passed!
+
+![Alt text](/assets/CSSValidation.png)
+
+## W3C Validator
+
+I used W3C to validate all of the HTML
+
+# Performance
+
+## Lighthouse performance statistics
