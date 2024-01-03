@@ -68,6 +68,8 @@ function flipCard() {
   checkForMatch();
 }
 
+// This function check if a cards is a match then flips or unflips
+
 function checkForMatch() {
   let isMatch = firstCard.dataset.name === secondCard.dataset.name;
 
@@ -88,6 +90,8 @@ function unflipCards() {
     resetBoard();
   }, 1000);
 }
+
+// This function happens once the restart button is pressed. the game is set back to its orginal state
 
 function resetBoard() {
   firstCard = null;
@@ -122,14 +126,3 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
-
-// Button hover effect
-const button = document.querySelector("button");
-
-button.addEventListener("mouseover", () => {
-  button.style.backgroundColor = "blue";
-});
-
-button.addEventListener("mouseout", () => {
-  button.style.backgoundColor = "";
-});
