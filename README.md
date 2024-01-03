@@ -18,7 +18,6 @@ The aim of the game is to find and pair all of the cards(Gods).
 - [Wireframes](#wireframes)
 - [Languages used](#languages-used)
 - [Technologies used](#technologies-used)
-- [Functions and featues](#functions-and-features)
 - [Testing and validation](#testing-and-validation)
 - [Perfomance](#performance)
 - [Future features](#future-features)
@@ -131,3 +130,11 @@ I used W3C to validate all of the HTML
 # Performance
 
 ## Lighthouse performance statistics
+
+![Alt Text](/assets/Performance.png)
+
+# Future Features
+
+In the future I would like the a function that allows you to select different mythoglogy. For e.g, I could choose from Greek, Asian or African mythology (based off the information in game).
+
+I would also like to add God Lore, which you can select a god an find out more on them through a description.
