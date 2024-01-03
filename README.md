@@ -11,6 +11,8 @@ The aim of the game is to find and pair all of the cards(Gods).
 - I am a 16 year old who is looking to play a simple game whilst waiting to load into an online match
 - I am an avid SMITE fan and am looking to play a smite related game that isn't as intense as SMITE itself
 
+# README Navigation
+
 - [Home](#home)
 - [Design Ideas](#design-ideas)
 - [Wireframes](#wireframes)
