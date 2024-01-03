@@ -31,7 +31,7 @@ The game has a very simple landing page with the Logo, Cards, Restart button and
 
 ## Design Ideas
 
-I was able to obtain official SMITE images through [Title](https://smite.fandom.com/wiki). This was an amazing find as it gave me every bit of imgaery I needed.
+I was able to obtain official SMITE images through [Title](https://smite.fandom.com/wiki). This was an amazing find as it gave me every image I I needed.
 
 Logo:
 ![Alt text](/assets/SmiteLogo.webp)
@@ -78,21 +78,21 @@ I deployed my website using GitPages. To do this, the steps are as follows:
 
 - Once you have made changes to your code, click the Source Control tab in the activity bar.
 
-![Alt text](assets/images/sourcecontrol.png)
+![Alt text](assets/sourcecontrol.png)
 
 - Select the changes you wish to commit by clicking the + symbol next to the file name (you can commit seperate changes in one push to the respository)
 
 - Once you have given a message to all of the committed changes you will see a 'Sync' option. Click that to push the code to your git repository.
 
-![Alt text](assets/images/syncchanges.png)
+![Alt text](assets/syncchanges.png)
 
 - Go to your repository, you will see that the changes have been made. On the right side of the main branch you should see the 'Deployments link'.
 
-![Alt text](assets/images/deploymentstab.png)
+![Alt text](assets/deploymentstab.png)
 
 - From there you can click on the link to you deployed website. You can also take a look at the history of deployments.
 
-![Alt text](assets/images/link.png)
+![Alt text](assets/link.png)
 
 ## How to Clone
 
@@ -134,6 +134,8 @@ I used W3C to validate all of the HTML
 ![Alt Text](/assets/Performance.png)
 
 # Future Features
+
+Most importantly I would like to make the site responsive, Giving mobile users the option to play the game
 
 In the future I would like the a function that allows you to select different mythoglogy. For e.g, I could choose from Greek, Asian or African mythology (based off the information in game).
 
