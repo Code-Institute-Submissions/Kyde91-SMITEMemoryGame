@@ -30,6 +30,8 @@ p {
   padding-top: 20px;
 }
 
+/*  Logo styling and positioning for the game and modal logo */
+
 .smite-logo {
   position: relative;
   display: block;
@@ -136,6 +138,8 @@ p {
     2px;
 }
 
+/* This is overlay for the background image to heplp the page contents stand out more */
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -145,24 +149,25 @@ p {
   z-index: -1;
 }
 
+/* Modal Styling  */
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* background of the modal */
+
 .modal-content {
-  /* background: url("assets/Smitebackground.webp");
-  background-position: center center;
-  background-size: cover; */
   background: linear-gradient(#f7e164, #764f00);
   margin: auto;
   padding: 20px;
@@ -170,6 +175,8 @@ p {
   width: 80%;
   pointer-events: auto;
 }
+
+/* Modal Text content  */
 
 p.modal-text {
   line-height: 3;
@@ -186,6 +193,8 @@ p.modal-text {
   position: relative;
   width: auto;
 }
+
+/* game rules button  */
 
 #myBtn {
   padding: 8px 16px;
